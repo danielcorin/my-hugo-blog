@@ -1,0 +1,52 @@
+baseURL = "https://blog.danielcorin.com/"
+languageCode = "en-us"
+title = "Way Enough Code"
+description = "testing"
+theme = "ananke"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+# SectionPagesMenu = "main"
+Paginate = 10
+# googleAnalytics = ""
+enableRobotsTXT = true
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = true
+    style = "monokai"
+    tabWidth = 2
+
+[menu]
+  [[menu.main]]
+    identifier = "Posts"
+    name = "Posts"
+    title = "Posts page"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/about/"
+
+pygmentsUseClasses=true
+
+[params]
+  favicon = ""
+  description = "Way Enough Code -- A software engineering and development blog"
+  author = "Dan Corin"
+  twitter = "https://twitter.com/danielcorin1"
+  github = "https://github.com/danielcorin"
+  linkedin = "https://www.linkedin.com/in/danielcorin/"
+  stackoverflow = "https://stackoverflow.com/users/2631732/daniel-corin"
+  featured_image = "/img/rowing.jpg"
+  custom_css = ["css/custom.css"]
+
+[outputs]
+  home = ["HTML", "AMP", "RSS"]
+  page = ["HTML"]

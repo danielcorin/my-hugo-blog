@@ -1,0 +1,22 @@
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.avatar {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    left: 0;
+    top: 1rem;
+    width: 150px;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-box {
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 15px;
+}

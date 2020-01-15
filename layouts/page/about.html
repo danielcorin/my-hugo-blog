@@ -1,0 +1,27 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+        <p class="f6 b helvetica tracked">
+          {{ humanize .Section | upper  }}
+        </p>
+        <h1 class="f1">
+          {{ .Title }}
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+        <div class="card-box">
+            <div class="avatar">
+                <img src="/img/me.jpg" alt="About image" />
+            </div>
+            {{ .Content }}
+        </div>
+        <div class="card-box">
+            <img src="/img/composite.jpg" alt="Composite" />
+        </div>
+        <p>S(<span title="San Francisco">F|</span><span title="St. Louis">TL|</span><span title="Sarasota">RQ</span>)</p>
+      </div>
+    </article>
+  </div>
+{{ end }}
