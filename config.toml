@@ -6,9 +6,8 @@ theme = "ananke"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
-# SectionPagesMenu = "main"
 Paginate = 10
-# googleAnalytics = ""
+googleAnalytics = "UA-53567397-1"
 enableRobotsTXT = true
 
 [markup]
@@ -45,7 +44,9 @@ pygmentsUseClasses=true
   linkedin = "https://www.linkedin.com/in/danielcorin/"
   stackoverflow = "https://stackoverflow.com/users/2631732/daniel-corin"
   featured_image = "/img/rowing.jpg"
-  custom_css = ["css/custom.css"]
+  custom_css = [
+    "css/custom.css",
+  ]
 
 [outputs]
   home = ["HTML", "AMP", "RSS"]
