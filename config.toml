@@ -43,6 +43,7 @@ pygmentsUseClasses=true
   github = "https://github.com/danielcorin"
   linkedin = "https://www.linkedin.com/in/danielcorin/"
   stackoverflow = "https://stackoverflow.com/users/2631732/daniel-corin"
+  strava = "https://www.strava.com/athletes/5926480"
   featured_image = "/img/rowing.jpg"
   custom_css = [
     "css/custom.css",

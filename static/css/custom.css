@@ -20,3 +20,12 @@ img {
   background-color: white;
   margin-bottom: 15px;
 }
+
+.strava {
+  fill: #BABABA;
+}
+
+.strava:hover {
+  fill: #f93a06;
+}
+

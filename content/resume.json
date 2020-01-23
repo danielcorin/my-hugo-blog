@@ -1,0 +1,162 @@
+{
+    "basics": {
+        "label": "Software Engineer",
+        "location": {
+            "address": "",
+            "city": "San Francisco",
+            "countryCode": "US",
+            "postalCode": "",
+            "region": "CA"
+        },
+        "name": "Dan Corin",
+        "picture": "http://blog.danielcorin.com/assets/me.jpg",
+        "profiles": [{
+                "network": "Github",
+                "url": "https://github.com/danielcorin",
+                "username": "danielcorin"
+            },
+            {
+                "network": "Twitter",
+                "url": "http://twitter.com/danielcorin1",
+                "username": "danielcorin1"
+            },
+            {
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/danielcorin/",
+                "username": "danielcorin"
+            },
+            {
+                "network": "StackOverflow",
+                "url": "https://stackoverflow.com/users/2631732/daniel-corin",
+                "username": "StackOverflow"
+            }
+        ],
+        "summary": null,
+        "website": "https://blog.danielcorin.com"
+    },
+    "education": [{
+        "area": "Physics and Computer Science",
+        "courses": [],
+        "endDate": "2014-06-01",
+        "gpa": null,
+        "institution": "Washington University in St. Louis",
+        "startDate": "2010-08-01",
+        "studyType": "Bachelors"
+    }],
+    "interests": [
+        {
+            "keywords": [
+                "Cycling",
+                "Rowing"
+            ],
+            "name": "Fitness"
+        }
+    ],
+    "languages": [{
+        "fluency": "Native speaker",
+        "language": "English"
+    }],
+    "skills": [
+        {
+            "keywords": [
+                "Go",
+                "Python",
+                "JavaScript"
+            ],
+            "level": null,
+            "name": "Languages"
+        },
+        {
+            "keywords": [
+                "Fx",
+                "Flask",
+                "Django",
+                "React",
+                "Vue"
+            ],
+            "level": null,
+            "name": "Frameworks"
+        },
+        {
+            "keywords": [
+                "Cassandra",
+                "MySQL",
+                "PostgreSQL",
+                "S3"
+            ],
+            "level": null,
+            "name": "Datastores"
+        },
+        {
+            "keywords": [
+                "Shell scripts",
+                "Makefiles",
+                "AWS"
+            ],
+            "level": null,
+            "name": "Other"
+        }
+    ],
+    "work": [
+        {
+            "company": "Uber",
+            "endDate": null,
+            "highlights": [
+                "Repurpose existing rental state machine from Jump bikes and scooters backend to generically service third party micro mobility aggregator use case in < 2 months, enabling early testing on a highly aggressive schedule"
+            ],
+            "position": "Sr. Software Engineer",
+            "startDate": "2019-10-01",
+            "summary": "Third Party Micromobility"
+        },
+        {
+            "company": "Uber",
+            "endDate": "2019-10-01",
+            "highlights": [
+                "Architect and build vehicle (bike and scooter) search endpoints, serving 10k+ queries per second",
+                "Architect and build jobs for over-the-air IOT device firmware upgrades (Go, Cadence, RabbitMQ)",
+                "Build processes and tooling enabling 40 new/migrated bikes/scooters markets to self-configure and launch",
+                "Define and implement schema for configuration of new emobility products throughout Uber used by eight downstream consuming teams (40+ stakeholders)"
+            ],
+            "position": "Sr. Software Engineer",
+            "startDate": "2019-05-01",
+            "summary": "Jump Core Platform"
+        },
+        {
+            "company": "Uber",
+            "endDate": "2019-05-01",
+            "highlights": [
+                "Architect and build fault tolerant, post-trip processing system to store bike and scooter rides in trips store for payments, support, receipts and invoicing. Currently supporting thousands of trips per day globally (Go, Kafka)",
+                "Develop deprecation plan for legacy vehicle solution payment system and execute migration to new microservice (Go, Fx, Cadence",
+                "Architect and build payments integration to support cash pre-payments for 100,000s of drivers in Brazil (Python, Celery)",
+                "Write extensive unit and integration tests within microservice architecture"
+            ],
+            "position": "Software Engineer II",
+            "startDate": "2017-01-01",
+            "summary": "Vehicle Solutions Payments"
+        },
+        {
+            "company": "Uber",
+            "endDate": "2016-12-31",
+            "highlights": [
+                "Lead development of 9 month systems integration effort between Uber and third party systems to bring the business up to date with best practices in the financial technology industry (Go, Thrift, ActiveMQ). Make backend for leasing business audit-audit-compliant, enabling it to be sold.",
+                "Second engineer on Uber owned vehicle inventory team, building microservices to manage more than 40,000 leased vehicles (MySQL, Python, Flask, Celery, Redis, S3)"
+            ],
+            "position": "Software Engineer I",
+            "startDate": "2016-06-01",
+            "summary": "Xchange Leasing, Vehicle Solutions"
+        },
+        {
+            "company": "Accenture",
+            "endDate": "2016-06-01",
+            "highlights": [
+                "Develop APIs and UI for a demonstrating integrating edge sensors and cameras with internal cloud analytics platform (Kinesis, Spark, Flask, MongoDB, React, Docker)",
+                "Architect and build scalable proof-of-concepts for enterprise data virtualization, integrating SQL and NoSQL data stores (MySQL, PostgreSQL, Redshift, S3, Cassandra, Presto, Apache Drill)",
+                "Build database agnostic APIs on top of data virtualization layer (Flask)",
+                "Design and build scalable data pipelines ingesting data streams from Kinesis, processing with Spark streaming, and writing results Cassandra"
+            ],
+            "position": "R&D Software Engineer",
+            "startDate": "2014-09-01",
+            "summary": "Accenture Labs"
+        }
+    ]
+}
