@@ -37,7 +37,7 @@ pygmentsUseClasses=true
 
 [params]
   favicon = ""
-  description = "Way Enough Code -- A software engineering and development blog"
+  description = "A software engineering and development blog"
   author = "Dan Corin"
   twitter = "https://twitter.com/danielcorin1"
   github = "https://github.com/danielcorin"
