@@ -28,16 +28,20 @@ enableRobotsTXT = true
     name = "Posts"
     title = "Posts page"
     url = "/posts/"
-[[menu.main]]
+  [[menu.main]]
     name = "About"
     identifier = "about"
     url = "/about/"
+[[menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    url = "/tags/"
 
 pygmentsUseClasses=true
 
 [params]
   favicon = ""
-  description = "A software engineering and development blog"
+  description = "On software engineering and development"
   author = "Dan Corin"
   twitter = "https://twitter.com/danielcorin1"
   github = "https://github.com/danielcorin"
