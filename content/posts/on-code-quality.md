@@ -6,7 +6,10 @@ tags:
     - quality
     - teams
 
-hidden: true
+hidden: false
+show_reading_time: true
+show_word_count: true
+toc: true
 ---
 
 There's an argument that engineers should care about code quality.
@@ -22,7 +25,8 @@ I’ll propose a few strategies I’ve developed to try and turn an unavoidable 
 
 When you find a file or function that is the perfect combination of unreadable and poorly named, misusing design patterns and languages features, violating abstractions and code base conventions:
 
-Identify if pattern exists elsewhere.
+## Identify if the pattern exists elsewhere.
+
 The same snippets of code get used and re-used all over the place across codebases and documentation.
 Copying code is great and fast, especially when the code is good (maybe you should have better abstractions but that is a different conversation).
 When the code is bad, copying the code can get the job done, but proliferates bad patterns and code entropy increases.
@@ -30,7 +34,8 @@ If you identify the source of the bad pattern, you can correct/improve it at its
 If you don't make these fixes, the pattern becomes malignant, pervading the codebase in which it originated but also showing in other codebases as less experienced contributors continue following the norms to which they've become accustomed.
 As an experienced member of your team, you can easily scale your impact by ensuring less experienced contributors the copy patterns you _want_ to see in your codebases rather than just whatever they're used to doing.
 
-Consider if the codebase uses patterns that encourage the contributions you want.
+## Consider if the codebase uses patterns that encourage the contributions you want.
+
 Chances are, if you're not happy with the state of your codebase today, you won't be happy with how new contributes look either.
 Does the code that already exists in the codebase look like new code you'd want added?
 Do you do a good job of creating focused modules and adhering to separation of concerns?
@@ -43,7 +48,8 @@ Given this bias, it's helpful to be proactive, telling new contributors somethin
 
 Additionally, work with your team to carve out time for code maintenance and refactoring so that in the future, less explanation is needed for new contributors.
 
-Pretend that you were the one who wrote the code.
+## Pretend that you were the one who wrote the code.
+
 Sometimes you don't have to pretend – you read code, think "hmm, this is not the way I'd do this", and it turns out, you `git blame` and realize you literally wrote it yourself, months or years earlier.
 Between when you wrote this code and later admonished yourself for the bad code you wrote, you've learned some things that have made you believe you could have done better.
 Maybe you've come to understand the codebase better, become more familiar with effective abstractions or came up with a design pattern that better fits the use case.
@@ -55,6 +61,7 @@ Maybe they'll learn something or maybe you will, and next time, consider leaving
 These conversations provide an opportunity for mentorship and nuanced discourse beyond the code review.
 They will help level-up your less experienced contributors and make them more confident and opinionated about how they write code in the future.
 
+## Automate
 Automate as much of the above as possible (not the 1 on 1 conversations).
 Add linting rules and build-time enforcements that encourage the "right" types of contributions.
 Add minimum percentage thresholds for unit test coverage so that contributors don't accidentally forget to test their code.
