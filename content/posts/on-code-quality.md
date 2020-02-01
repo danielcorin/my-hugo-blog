@@ -6,7 +6,7 @@ tags:
     - quality
     - teams
 
-hidden: false
+hidden: true
 show_reading_time: true
 show_word_count: true
 toc: true
