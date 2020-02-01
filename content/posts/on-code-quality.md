@@ -6,7 +6,7 @@ tags:
     - quality
     - teams
 
-hidden: true
+hidden: false
 show_reading_time: true
 show_word_count: true
 toc: true
@@ -16,7 +16,7 @@ There's an argument that engineers should care about code quality.
 Teams and companies make specific and targeted efforts to keep the quality of their codebases high.
 The existence of activities like "spring cleaning", "test Fridays", "Fixit week" and others assert the importance of code maintenance, giving engineers the breathing room to fix complex, hairy issues that take more than a day or two of time and focus to solve.
 
-Some of us (I do) will talk about the problem of "poor quality code", "bad code", or "spaghetti code" as if the code wasn't written by engineers just like ourselves, but the bottom line is, every engineer can likely find a piece of code they wrote that they aren't proud of today.
+Some engineers (I do) will talk about the problem of "poor quality code", "bad code", or "spaghetti code" as if the code wasn't written by engineers just like ourselves, but the bottom line is, every engineer can likely find a piece of code they wrote that they aren't proud of today.
 We've since gained experience that allows us to view the contribution with deepened context and in a different light.
 As more proficient engineers, rather than just seeing a problem and pointing it out, we can do something productive to address the reason the poor code was written in the first place.
 
