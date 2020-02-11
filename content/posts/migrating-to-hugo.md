@@ -42,7 +42,7 @@ pygmentsUseClasses=true
 
 For backwards, compatibility, I also added [aliases](https://gohugo.io/content-management/urls/#yaml-front-matter) so that direct links to the old blog would continue to point to the same page in the new blog.
 
-For example, for [this post](/post/2019-05-29-unix/) (/post/2019-05-29-unix/), I added the following to the yaml frontmatter:
+For example, for [this post](/posts/2019-05-29-unix/) (/posts/2019-05-29-unix/), I added the following to the yaml frontmatter:
 
 {{< highlight yaml >}}
 aliases:
